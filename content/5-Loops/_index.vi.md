@@ -38,7 +38,7 @@ int main(void)
 
 3. Hoặc có thể sử dụng ***vòng lặp for***:
 ```bash
-#include<stdio.h>
+#include <stdio.h>
 
 int main(void)
 {
