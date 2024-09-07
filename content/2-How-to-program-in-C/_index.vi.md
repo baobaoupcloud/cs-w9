@@ -19,7 +19,7 @@ Ví dụ: xây dựng chương trình hello
 
 int main(void)
 {
-    printf("chào bạn\n");
+    printf("chào bạn\n");
 }
 ```
 `printf` là hàm để xuất dòng văn bản. Chú ý vị trí dấu ngoặc đơn `()` và dấu chấm phẩy `;`. Kế đó, `\n` để thêm một dòng mới sau từ "chào bạn". Các hàm khác sẽ được đề cập sau trong khóa học.
@@ -28,7 +28,7 @@ int main(void)
 4. Tiếp tục gõ ```./hello``` để chạy chương trình hello.
 5. Chương trình sẽ thực thi và hiển thị "chào bạn".
 
-Trong ngôn ngữ lập trình C, chúng ta có các thư viện hàm. Có một [trang tài liệu hướng dẫn](https://manual.cs50.io/) tổng hợp các hàm và thư viện tương ứng. Các hàm này đã được viết sẵn từ trước và có thể sử dụng lại trong mã của mình.
+Trong ngôn ngữ lập trình C, chúng ta có các thư viện hàm. Có một [trang tài liệu](https://manual.cs50.io/) tổng hợp các hàm và thư viện tương ứng. Các hàm này đã được viết sẵn từ trước và có thể sử dụng lại trong mã của mình.
 
 {{% notice Lưu ý %}}
 Ở đầu mã, nhớ thêm tệp tiêu đề để sử dụng các hàm. Ví dụ thêm tệp tiêu đề stdio.h `#include <stdio.h>` để dùng hàm `printf`. Lưu ý 2: các câu lệnh mã phải kết thúc bằng dấu `;` . Quên `;` sẽ gây ra lỗi.
