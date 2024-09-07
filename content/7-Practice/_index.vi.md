@@ -26,7 +26,7 @@ for (int i = 0; i < 4; i++)
 Tương tự, chúng ta có thể tạo cột dọc từ 3 khối
 ![mario](https://raw.githubusercontent.com/baobaoupcloud/cs/main/static/images/7.practice/2practice.png)
 
-Viết đoạn mã như sau:
+Viết đoạn mã như sau:
 ```bash
 #include <stdio.h>
 
