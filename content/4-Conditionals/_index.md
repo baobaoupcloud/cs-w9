@@ -39,6 +39,6 @@ We created 2 variables type integer x, y. The values of these are populated usin
 
 The process of the program can be shown as **flow charts**. Such charts can be used to examine the efficiency of our code.
 
-Following is the flow chart of the above code:.
-![flowchart](https://github.com/baobaoupcloud/cs/blob/main/static/images/4.conditionals/1conditionals.png)
+Following is the flow chart of the above code:
+![flowchart](/blob/main/static/images/4.conditionals/1conditionals.png)
 
