@@ -10,12 +10,12 @@ home = [ "HTML", "RSS", "JSON"]
   themeVariant = "workshop"
   # Git hub repo link
   editURL = "https://baobaoupcloud.github.io/cs/"
-  description = ""
+  description = "Baobao"
   author = "journeyoftheaverageguy@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
-  baseURL = "\/"
+  baseURL = "https://baobaoupcloud.github.io/cs/"
 [Languages]
 [Languages.en]
 title = "CS50"
