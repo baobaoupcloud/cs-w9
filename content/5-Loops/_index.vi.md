@@ -5,11 +5,11 @@ weight : 5
 chapter : false
 pre : " <b> 5. </b> "
 ---
-A **loop** is a sequence of instructions that is continually repeated until a certain condition is reached. 
+Một **vòng lặp** là một chuỗi các lệnh được lặp đi lặp lại liên tục cho đến khi đạt đến điều kiện nhất định.
 
-For example we can loop the action saying meow 3 times in 2 ways: ***while loop*** and ***for loop***.
+Ví dụ, chúng ta có thể lặp hành động in từ "meow" 3 lần bằng 2 cách: vòng lặp ***while*** và vòng lặp ***for***.
 
-1. Initially, the code looks like this:
+1. Đây là đoạn mã ban đầu:
 ```bash
 #include <stdio.h>
 
@@ -20,7 +20,7 @@ int main(void)
     printf("meow\n");
 }
 ```
-2. We can improve the code by using ***while loop***:
+2. Chúng ta có thể sử dụng ***vòng lặp while*** tối ưu hơn:
 ```bash
 #include <stdio.h>
 
@@ -34,9 +34,9 @@ int main(void)
     }
 }
 ```
-The code means `i` variable type integer is assigned the value `0`. We create a **while loop** that will run as long as `i < 3`. Then, the loop runs. Every time `1` is added to `i` using the `i++` statement.
+Đoạn này có nghĩa là, biến số nguyên `i` được gán giá trị = `0`. Chúng ta tạo ***vòng lặp while*** chạy lặp đi lặp lại đến khi `i < 3`. Mỗi lần lặp, `i` sẽ được cộng thêm `1` bằng câu lệnh `i++`.
 
-3. Or we can use the ***for loop***:
+3. Hoặc có thể sử dụng ***vòng lặp for***:
 ```bash
 #include<stdio.h>
 
@@ -48,4 +48,4 @@ for (int i = 0; i < 3; i++)
     }
 }
 ```
-The first argument `int i = 0` starts our counter at `0`. The second argument `i < 3` is the condition that is being checked. Finally, the argument `i++` tells the loop to add `1` each time the loop runs.
+Đối số đầu tiên `int i = 0` xem như điểm bắt đầu bộ đếm từ `0`. Đối số tiếp theo là điều kiện để kiểm tra `i < 3`. Và đối số cuối cùng `i++` để thực hiện phép cộng `1` mỗi lần vòng lặp chạy.
