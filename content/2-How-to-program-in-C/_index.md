@@ -10,7 +10,7 @@ In this course, we use **Visual Studio Code** (VS Code) as the integrated develo
 We use three commands to write, compile, and run our program: `code`, `make`, `./` 
 
 For example: build the program hello
-1. Go into the terminal window, type ```code hello.c``` to creates a file in C named hello and allows us to type instructions for this program.
+1. Go into the terminal window, type ```code hello.c``` to create a file in C named hello and allow us to type instructions for this program.
 
 2. In the text editor that appears, write code as follows:
  ```bash
@@ -23,7 +23,7 @@ int main(void)
 ```
 `printf` is a function that can output a line of text. Notice the placement of the quotes `()` and the semicolon `;`. Further, the `\n` creates a new line after the words "hello, mate". Other functions will be mentioned later in the course.
 
-3. In the terminal window, type ```make hello``` or ```clang hello.c -o hello``` to compile the file from our instruction and creates an executable file called hello
+3. In the terminal window, type ```make hello``` or ```clang hello.c -o hello``` to compile the file from our instruction and create an executable file called hello
 4. Continue type ```./hello``` to run the program hello
 5. The program will execute saying "hello, mate"
 
