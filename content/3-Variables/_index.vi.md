@@ -5,28 +5,28 @@ weight : 3
 chapter : false
 pre : " <b> 3. </b> "
 ---
-#### Variables
-In C, variables must have a defined data type, and formats code are needed to print them.
+#### Biến
+Trong ngôn ngữ lập trình C, các biến phải có kiểu dữ liệu và các mã định dạng cần thiết để in ra.
 
 
-**Types:**
-- `bool`, a Boolean expression of either true or false
-- `char`, a single character like a or 2
-- `float`, a floating-point value, or real number with a decimal value
-- `double`, a floating-point value with more digits than a float
-- `int`, integers up to a certain size, or number of bits
-- `long`, integers with more bits, so they can count higher than an int
-- `string`, a string of characters
+**Các kiểu dữ liệu:**
+- `bool`, biểu thức boolean với giá trị đúng (true) hoặc sai (false)
+- `char`, ký tự như a hoặc 2
+- `float`, số thực với giá trị thập phân
+- `double`, số thực với nhiều chữ số hơn float
+- `int`, số nguyên với kích thước nhất định, hoặc số bit
+- `long`, số nguyên với nhiều bit hơn, nên có thể đếm nhiều hơn kiểu int
+- `string`, chuỗi các ký tự
 
 
-**Format code:**
-- `%c`, char
-- `%f`, float
-- `%i`, int
-- `%li`, long int
-- `%s`, strings
+**Mã định dạng:**
+- `%c`, (char) ký tự
+- `%f`, (float) số thực
+- `%i`, (int) số nguyên
+- `%li`, (long int) số nguyên lớn hơn
+- `%s`, (strings) chuỗi ký tự
 
-For example: program to get the user’s name
+Ví dụ: tạo chương trình lấy tên của người dùng
 
 ```bash
 #include <cs50.h>
@@ -34,9 +34,9 @@ For example: program to get the user’s name
 
 int main(void)
 {
-    string answer = get_string("What's your name? ");
-    printf("hello, %s\n", answer);
+    string answer = get_string("Bạn tên là? ");
+    printf("chào, %s\n", answer);
 }
 ```
-- The `get_string` function is used to get a string from the user. Then, the variable ***answer*** is passed to the ***printf*** function. `%s` is a format code tells the ***printf*** function to prepare itself to receive a string.
-- ***answer*** is called a variable. It is of type string and can hold any sting within it.
+- Hàm `get_string` dùng để lấy chuỗi ký tự từ người dùng. Sau đó, biến ***answer*** được truyền vào hàm ***printf***. Mã định dạng `%s` giúp hàm ***printf*** chuẩn bị xác định sẽ nhận mội chuỗi ký tự.
+- ***answer*** được gọi là một biến có kiểu dữ liệu 'string' (chuỗi ký tự) có thể chứa bất kỳ chuỗi nào.
