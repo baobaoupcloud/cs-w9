@@ -50,4 +50,4 @@ for (int i = 0; i < 3; i++)
 ```
 Đối số đầu tiên `int i = 0` xem như điểm bắt đầu bộ đếm từ `0`. Đối số tiếp theo là điều kiện để kiểm tra `i < 3`. Và đối số cuối cùng `i++` để thực hiện phép cộng `1` vào biến `i` mỗi lần vòng lặp chạy.
 
-{{% notice note %}} ***Vòng lặp for*** thường dùng khi biết trước số lần lặp, còn ***Vòng lặp while*** được lặp liên tục đến khi đạt điều kiện, chúng ta không biết được sẽ lặp bao nhiêu lần. {{% notice %}}
+{{% notice note %}} ***Vòng lặp for*** thường dùng khi biết trước số lần lặp, còn ***Vòng lặp while*** được lặp liên tục đến khi đạt điều kiện, chúng ta không biết được sẽ lặp bao nhiêu lần. {{% /notice %}}
