@@ -32,7 +32,7 @@ else{
     }
 }
 ```
-Chúng ta đã tạo 2 biến kiểu số nguyên x và y. Giá trị của 2 biến này được nhập bằng hàm `get_int`.
+Chúng ta đã tạo 2 biến kiểu số nguyên x và y. Giá trị của 2 biến này được nhập bằng hàm `get_int`. Quy trình bắt đầu kiểm tra điều kiện của `if`. Nếu điều kiện được thỏa mãn, hàm sẽ trả về giá trị tương ứng. Nếu điều kiện không được đáp ứng, logic sẽ tiếp tục kiểm tra điều kiện tiếp theo `elseif`. Cuối cùng, nếu không có điều kiện nào được thỏa mãn, logic sẽ trả về giá trị của `else`.
 
 2. Để chạy mã, gõ `make compare` trong cửa sổ terminal, sau đó gõ `./compare`.
 3. Nhập 2 số nguyên và xem kết quả.
