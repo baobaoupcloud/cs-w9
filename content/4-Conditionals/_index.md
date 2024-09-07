@@ -32,7 +32,7 @@ else{
     }
 }
 ```
-We created 2 variables type integer x, y. The values of these are populated using the get_int function. The first `if` clause checks whether the condition is satisfied, the function returns the corresponding value. If the condition is not met, the logic then evaluates subsequent conditions of `elseif` clauses. Finally, if none of the previous conditions are fulfilled, it returns the `else` value.
+We created 2 variables type integer x, y. The values of these are populated using the get_int function. The first `if` clause checks whether the condition is satisfied, the function returns the corresponding value. If the condition is not met, the logic then evaluates subsequent conditions of `elseif` clause. Finally, if none of the previous conditions are fulfilled, it returns the `else` value.
 
 2. Run the code by executing `make compare` in the terminal window, followed by `./compare`.
 3. Input the 2 numbers and get the results.
