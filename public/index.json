@@ -1,0 +1,71 @@
+[
+{
+	"uri": "//localhost:1313/",
+	"title": "CS50 Week 1",
+	"tags": [],
+	"description": "",
+	"content": "CS50 Week 1 - C Overall This workshop is a learning note of CS50 course. In the first week, we will discover these following contents.\nContent Introduction How-to-program-in-C Variables Conditionals Loops Operators-and-functions Practice "
+},
+{
+	"uri": "//localhost:1313/1-introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Introduction CS50 is an entry-level course to Computer Science. It is taught by David J. Malan at Harvard University. The course covers abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. It also includes instruction in languages such as C, Python, SQL, JavaScript, CSS and HTML.\nIn the first week, we will learn how to program in C. Let’s get started.\n"
+},
+{
+	"uri": "//localhost:1313/2-how-to-program-in-c/",
+	"title": "How to program in C",
+	"tags": [],
+	"description": "",
+	"content": "In this course, we use Visual Studio Code (VS Code) as the integrated development environment (IDE). VS Code has all the software required for the course already pre-loaded on it.\nWe use three commands to write, compile, and run our program: code, make, ./\nFor example: build the program hello\nGo into the terminal window, type code hello.c to creates a file in C named hello and allows us to type instructions for this program.\nIn the text editor that appears, write code as follows:\n#include \u0026lt;stdio.h\u0026gt; int main(void) { printf(\u0026#34;hello, mate\\n\u0026#34;); } printf is a function that can output a line of text. Notice the placement of the quotes () and the semicolon ;. Further, the \\n creates a new line after the words \u0026ldquo;hello, mate\u0026rdquo;. Other functions will be mentioned later in the course.\nIn the terminal window, type make hello or clang hello.c -o hello to compile the file from our instruction and creates an executable file called hello Continue type ./hello to run the program hello The program will execute saying \u0026ldquo;hello, mate\u0026rdquo; In C, we have libraries of functions. There is a Manual provides all the capabilities of them. They are collections of pre-written functions that others have written in the past that we can utilise in our code.\nAt the start of the code, remember to include the header file to use the functions. Such as #include \u0026lt;stdio.h\u0026gt; to use printf function. Also notice that the statement of code is closed with a ; . Omission of ; will cause error.\n"
+},
+{
+	"uri": "//localhost:1313/3-variables/",
+	"title": "Variables",
+	"tags": [],
+	"description": "",
+	"content": "Variables In C, variables must have a defined data type, and formats code are needed to print them.\nTypes:\nbool, a Boolean expression of either true or false char, a single character like a or 2 float, a floating-point value, or real number with a decimal value double, a floating-point value with more digits than a float int, integers up to a certain size, or number of bits long, integers with more bits, so they can count higher than an int string, a string of characters Format code:\n%c, char %f, float %i, int %li, long int %s, strings For example: program to get the user’s name\n#include \u0026lt;cs50.h\u0026gt; #include \u0026lt;stdio.h\u0026gt; int main(void) { string answer = get_string(\u0026#34;What\u0026#39;s your name? \u0026#34;); printf(\u0026#34;hello, %s\\n\u0026#34;, answer); } The get_string function is used to get a string from the user. Then, the variable answer is passed to the printf function. %s is a format code tells the printf function to prepare itself to receive a string. answer is called a variable. It is of type string and can hold any sting within it. "
+},
+{
+	"uri": "//localhost:1313/4-conditionals/",
+	"title": "Conditionals",
+	"tags": [],
+	"description": "",
+	"content": "Conditionals are constructs that perform different actions depending on the conditions.\nFor example we can give conditions for the program to do comparison:\nIn the terminal window, type code compare.c and write code as follow: #include\u0026lt;cs50.h\u0026gt; #include\u0026lt;stdio.h\u0026gt; int main(void) { int x = get_int(\u0026#34;What\u0026#39;s x? \u0026#34;); int y = get_int(\u0026#34;What\u0026#39;s y? \u0026#34;); if (x \u0026lt; y) { printf(\u0026#34;x is less than y\\n\u0026#34;); } elseif (x \u0026gt; y) { printf(\u0026#34;x is greater than y\\n\u0026#34;); } else{ printf(\u0026#34;x is equal to y\\n\u0026#34;); } } We created 2 variables type integer x, y. The values of these are populated using the get_int function.\nRun the code by executing make compare in the terminal window, followed by ./compare. Input the 2 numbers and get the results. The process of the program can be shown as flow charts. Such charts can be used to examine the efficiency of our code.\nFollowing is the flow chart of the above code. "
+},
+{
+	"uri": "//localhost:1313/5-loops/",
+	"title": "Loops",
+	"tags": [],
+	"description": "",
+	"content": "A loop is a sequence of instructions that is continually repeated until a certain condition is reached.\nFor example we can loop the action saying meow 3 times in 2 ways: while loop and for loop.\nInitially, the code looks like this: #include \u0026lt;stdio.h\u0026gt; int main(void) { printf(\u0026#34;meow\\n\u0026#34;); printf(\u0026#34;meow\\n\u0026#34;); printf(\u0026#34;meow\\n\u0026#34;); } We can improve the code by using while loop: #include \u0026lt;stdio.h\u0026gt; int main(void) { int i = 0; while (i \u0026lt; 3) { printf(\u0026#34;meow\\n\u0026#34;); i++; } } The code means i variable type integer is assigned the value 3. We create a while loop that will run as long as i \u0026lt; 3. Then, the loop runs. Every time 1 is added to i using the i++ statement. 3. Or we can use the for loop:\n#include\u0026lt;stdio.h\u0026gt; int main(void) { for (int i = 0; i \u0026lt; 3; i++) { printf(\u0026#34;meow\\n\u0026#34;); } } The first argument int i = 0 starts our counter at 0. The second argument i \u0026lt; 3 is the condition that is being checked. Finally, the argument i++ tells the loop to add 1 each time the loop runs.\n"
+},
+{
+	"uri": "//localhost:1313/6-operators-and-functions/",
+	"title": "Operators and functions",
+	"tags": [],
+	"description": "",
+	"content": "Operators are the mathematical operations that are supported by the compiler. In C, these mathematical operators include:\n+ for addition - for subtraction * for multiplication / for division % for remainder For example: assign the sum of a and b to c: int c = a + b;\nWe can create our own functions in C. For example create a C function called meow\nvoid meow(void) { printf(\u0026#34;meow\\n\u0026#34;); } With meow is the name of the function we want to create. The first void means this function has no return value. And the void in parentheses means it takes no inputs. It only meows\n"
+},
+{
+	"uri": "//localhost:1313/7-practice/",
+	"title": "Practice",
+	"tags": [],
+	"description": "",
+	"content": "Everything discussed above can be applied to create code representing the blocks in Mario. For example:\nBuild the horizontal blocks of 4 ? In the terminal window, type code mario.c and code as follows:\n#include \u0026lt;stdio.h\u0026gt; int main(void) { for (int i = 0; i \u0026lt; 4; i++) { printf(\u0026#34;?\u0026#34;); } printf(\u0026#34;\\n\u0026#34;); } Similarly, we can create vertical blocks of 3 Modify the code as follows:\n#include \u0026lt;stdio.h\u0026gt; int main(void) { for (int i = 0; i \u0026lt; 3; i++) { printf(\u0026#34;#\\n\u0026#34;); } } Show the results by executing make mario in the terminal window, followed by ./mario.\nAnd that\u0026rsquo;s all for week 1 ^^\n"
+},
+{
+	"uri": "//localhost:1313/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "//localhost:1313/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
