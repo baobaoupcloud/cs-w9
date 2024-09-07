@@ -52,4 +52,4 @@ The first argument `int i = 0` starts our counter at `0`. The second argument�
 
 {{% notice note %}} 
 ***For loop*** is used when the number of iterations is known, whereas execution is done in a ***while loop*** until the statement in the program is proved wrong, we do not know how many loops there would be.
-{{% notice %}} 
+{{% /notice %}} 
