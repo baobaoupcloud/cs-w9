@@ -11,8 +11,8 @@ Conditionals are constructs that perform different actions depending on the cond
 For example we can give conditions for the program to do comparison:
 1. In the terminal window, type `code compare.c` and write code as follow:
 ```bash
-#include<cs50.h>
-#include<stdio.h>
+#include <cs50.h>
+#include <stdio.h>
 
 int main(void)
 {
