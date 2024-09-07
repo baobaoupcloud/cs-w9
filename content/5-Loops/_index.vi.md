@@ -34,7 +34,7 @@ int main(void)
     }
 }
 ```
-Đoạn này có nghĩa là, biến số nguyên `i` được gán giá trị = `0`. Chúng ta tạo ***vòng lặp while*** chạy lặp đi lặp lại đến khi `i < 3`. Mỗi lần lặp, `i` sẽ được cộng thêm `1` bằng câu lệnh `i++`.
+Đoạn này có nghĩa là, biến số nguyên `i` được gán giá trị = `0`. Chúng ta tạo ***vòng lặp while*** chạy lặp đi lặp lại đến khi `i < 3`. Mỗi lần lặp, biến `i` sẽ được cộng thêm `1` bằng câu lệnh `i++`.
 
 3. Hoặc có thể sử dụng ***vòng lặp for***:
 ```bash
@@ -48,4 +48,4 @@ for (int i = 0; i < 3; i++)
     }
 }
 ```
-Đối số đầu tiên `int i = 0` xem như điểm bắt đầu bộ đếm từ `0`. Đối số tiếp theo là điều kiện để kiểm tra `i < 3`. Và đối số cuối cùng `i++` để thực hiện phép cộng `1` mỗi lần vòng lặp chạy.
+Đối số đầu tiên `int i = 0` xem như điểm bắt đầu bộ đếm từ `0`. Đối số tiếp theo là điều kiện để kiểm tra `i < 3`. Và đối số cuối cùng `i++` để thực hiện phép cộng `1` vào biến `i` mỗi lần vòng lặp chạy.
