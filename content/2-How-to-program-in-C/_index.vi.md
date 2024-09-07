@@ -30,7 +30,7 @@ int main(void)
 
 Trong ngôn ngữ lập trình C, chúng ta có các thư viện hàm. Có một [trang tài liệu](https://manual.cs50.io/) tổng hợp các hàm và thư viện tương ứng. Các hàm này đã được viết sẵn từ trước và có thể sử dụng lại trong mã của mình.
 
-{{% notice Lưu ý %}}
+{{% notice note %}}
 Ở đầu mã, nhớ thêm tệp tiêu đề để sử dụng các hàm. Ví dụ thêm tệp tiêu đề stdio.h `#include <stdio.h>` để dùng hàm `printf`. Lưu ý 2: các câu lệnh mã phải kết thúc bằng dấu `;` . Quên `;` sẽ gây ra lỗi.
 {{% /notice %}}
 
