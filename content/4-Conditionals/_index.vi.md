@@ -5,39 +5,39 @@ weight : 4
 chapter : false
 pre : " <b> 4. </b> "
 ---
-Conditionals are constructs that perform different actions depending on the conditions. 
+Câu lệnh điều kiện là các cấu trúc thực hiện các hành động khác nhau tùy thuộc vào điều kiện đưa ra.
 
 
-For example we can give conditions for the program to do comparison:
-1. In the terminal window, type `code compare.c` and write code as follow:
+Ví dụ, chúng ta có thể dùng câu lệnh điều kiện để viết chương trình so sánh hai số:
+1. Trong cửa sổ terminal, gõ `code compare.c` và viết mã như sau:
 ```bash
-#include<cs50.h>
-#include<stdio.h>
+#include <cs50.h>
+#include <stdio.h>
 
 int main(void)
 {
-    int x = get_int("What's x? ");
-    int y = get_int("What's y? ");
+    int x = get_int("Nhập số x: ");
+    int y = get_int("Nhập số y: ");
 
 if (x < y)
     {
-        printf("x is less than y\n");
+        printf("x nhỏ hơn y\n");
     }
 elseif (x > y)
     {
-        printf("x is greater than y\n");
+        printf("x lớn hơn y\n");
     }
 else{
-        printf("x is equal to y\n");
+        printf("x bằng y\n");
     }
 }
 ```
-We created 2 variables type integer x, y. The values of these are populated using the get_int function.
+Chúng ta đã tạo 2 biến kiểu số nguyên x và y. Giá trị của 2 biến này được nhập bằng hàm `get_int`.
 
-2. Run the code by executing `make compare` in the terminal window, followed by `./compare`.
-3. Input the 2 numbers and get the results.
+2. Để chạy mã, gõ `make compare` trong cửa sổ terminal, sau đó gõ `./compare`.
+3. Nhập 2 số nguyên và xem kết quả.
 
-The process of the program can be shown as **flow charts**. Such charts can be used to examine the efficiency of our code.
+Quá trình chạy của chương trình có thể được thể hiện dưới dạng **lưu đồ thuật toán**. Chúng ta có thể kiểm tra hiệu quả của đoạn mã dựa trên các biểu đồ này.
 
-Following is the flow chart of the above code.
+Dưới đây là lưu đồ thuật toán của mã trên.
 ![flowchart](https://github.com/baobaoupcloud/cs/blob/main/static/images/4.conditionals/2conditionals.png?raw=true)
