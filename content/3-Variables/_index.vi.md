@@ -5,7 +5,6 @@ weight : 3
 chapter : false
 pre : " <b> 3. </b> "
 ---
-#### Biến
 Trong ngôn ngữ lập trình C, các biến phải có kiểu dữ liệu và các mã định dạng cần thiết để in ra.
 
 
