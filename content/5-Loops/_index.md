@@ -34,7 +34,8 @@ int main(void)
     }
 }
 ```
-The code means `i` variable type integer is assigned the value `3`. We create a **while loop** that will run as long as `i < 3`. Then, the loop runs. Every time `1` is added to `i` using the `i++` statement.
+The code means `i` variable type integer is assigned the value `0`. We create a **while loop** that will run as long as `i < 3`. Then, the loop runs. Every time `1` is added to `i` using the `i++` statement.
+
 3. Or we can use the ***for loop***:
 ```bash
 #include<stdio.h>
