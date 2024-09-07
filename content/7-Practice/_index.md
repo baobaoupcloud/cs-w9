@@ -8,7 +8,7 @@ pre : " <b> 7. </b> "
 Everything discussed above can be applied to create code representing the blocks in **Mario**. For example: 
 
 Build the horizontal blocks of 4 `?`
-![mario](/images/7.practice/1practice.png)
+![mario](https://raw.githubusercontent.com/baobaoupcloud/cs/main/static/images/7.practice/1practice.png)
 In the terminal window, type `code mario.c` and code as follows:
 
 ```bash
@@ -24,7 +24,7 @@ for (int i = 0; i < 4; i++)
 }
 ```
 Similarly, we can create vertical blocks of 3
-![mario](/images/7.practice/2practice.png)
+![mario](https://raw.githubusercontent.com/baobaoupcloud/cs/main/static/images/7.practice/2practice.png)
 
 Modify the code as follows:
 ```bash
