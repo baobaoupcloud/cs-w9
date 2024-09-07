@@ -5,7 +5,6 @@ weight : 3
 chapter : false
 pre : " <b> 3. </b> "
 ---
-#### Variables
 In C, variables must have a defined data type, and formats code are needed to print them.
 
 
