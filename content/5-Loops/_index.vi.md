@@ -9,7 +9,7 @@ Một **vòng lặp** là một chuỗi các lệnh được lặp đi lặp l�
 
 Ví dụ, chúng ta có thể lặp hành động in từ "meow" 3 lần bằng 2 cách: vòng lặp ***while*** và vòng lặp ***for***.
 
-1. Đây là đoạn mã ban đầu:
+1. Với đoạn mã ban đầu:
 ```bash
 #include <stdio.h>
 
