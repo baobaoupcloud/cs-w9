@@ -39,5 +39,5 @@ Chúng ta đã tạo 2 biến kiểu số nguyên x và y. Giá trị của 2 bi
 
 Quá trình chạy của chương trình có thể được thể hiện dưới dạng **lưu đồ thuật toán**. Chúng ta có thể kiểm tra hiệu quả của đoạn mã dựa trên các biểu đồ này.
 
-Dưới đây là lưu đồ thuật toán của mã trên.
+Dưới đây là lưu đồ thuật toán của mã trên.
 ![flowchart](https://github.com/baobaoupcloud/cs/blob/main/static/images/4.conditionals/2conditionals.png?raw=true)
