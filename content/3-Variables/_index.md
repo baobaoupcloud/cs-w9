@@ -37,5 +37,5 @@ int main(void)
     printf("hello, %s\n", answer);
 }
 ```
-- ***answer*** is called a variable. It is of type string and can hold any sting within it.
+- ***answer*** is called a variable. It is of type string and can hold any string within it.
 - The `get_string` function is used to get a string from the user. Then, the variable ***answer*** is passed to the ***printf*** function. `%s` is a format code tells the ***printf*** function to prepare itself to receive a string.
