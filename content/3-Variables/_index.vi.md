@@ -38,4 +38,4 @@ int main(void)
 }
 ```
 - ***answer*** được gọi là một biến có kiểu dữ liệu 'string' (chuỗi ký tự) có thể chứa bất kỳ chuỗi nào.
-- Hàm `get_string` dùng để lấy chuỗi ký tự từ người dùng. Sau đó, biến ***answer*** được truyền vào hàm ***printf***. Mã định dạng `%s` giúp hàm ***printf*** chuẩn bị xác định sẽ nhận mội chuỗi ký tự.
+- Hàm `get_string` dùng để lấy chuỗi ký tự từ người dùng. Sau đó, biến ***answer*** được truyền vào hàm ***printf***. Mã định dạng `%s` giúp hàm ***printf*** chuẩn bị xác định sẽ nhận một chuỗi ký tự.
