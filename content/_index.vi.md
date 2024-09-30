@@ -1,19 +1,18 @@
 ---
-title : "CS50 Tuần 1"
+title : "CS50 Tuần 4"
 date :  "`r Sys.Date()`" 
 weight : 1 
 chapter : false
 ---
-# CS50 Week 1 - C
+# CS50 Tuần 4 - Bộ nhớ
 
-### Tổng quan
-Workshop này là ghi chú nhỏ cho khoá học CS50. Ở tuần đầu tiên, chúng ta đi qua các nội dung sau.
+### Overall
+Chào mừng đến với tuần thứ 4. Chúng ta sẽ đi sâu vào những thành phần cơ bản tạo nên các tệp, bao gồm cả hình ảnh, đi sâu hơn về cách truy cập dữ liệu cơ bản được lưu trữ trong bộ nhớ máy tính.
 
-### Mục lục
- 1. [Giới-thiệu](1-Introduction/)
- 2. [Lập-trình-bằng-ngôn-ngữ-C](2-How-to-program-in-C/)
- 3. [Biến](3-Variables/)
- 4. [Điều-kiện](4-Conditionals/)
- 5. [Vòng-lặp](5-Loops/)
- 6. [Toán-tử-và-hàm](Operators-and-functions/)
- 7. [Thực-hành](7-Practice/)
+
+### Content
+ 1. [Pixel](1-Pixel-Art/)
+ 2. [Bộ nhớ](2-Memory/)
+ 3. [Chuỗi](3-Strings/)
+ 4. [Hàm cơ bản](4-Functions/)
+ 5. [Heap và Stack](5-Heap-and-Stack/)
