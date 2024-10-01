@@ -14,88 +14,88 @@
                 href="//localhost:1313/"
                 />
   </url><url>
-    <loc>//localhost:1313/1-introduction/</loc>
+    <loc>//localhost:1313/1-data-structures/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/1-introduction/"
+                href="//localhost:1313/vi/1-data-structures/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/1-introduction/"
+                href="//localhost:1313/1-data-structures/"
                 />
   </url><url>
-    <loc>//localhost:1313/2-how-to-program-in-c/</loc>
+    <loc>//localhost:1313/2-stacks-and-queues/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/2-how-to-program-in-c/"
+                href="//localhost:1313/vi/2-stacks-and-queues/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/2-how-to-program-in-c/"
+                href="//localhost:1313/2-stacks-and-queues/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-variables/</loc>
+    <loc>//localhost:1313/3-resizing-arrays/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-variables/"
+                href="//localhost:1313/vi/3-resizing-arrays/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-variables/"
+                href="//localhost:1313/3-resizing-arrays/"
                 />
   </url><url>
-    <loc>//localhost:1313/4-conditionals/</loc>
+    <loc>//localhost:1313/4-linked-lists/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/4-conditionals/"
+                href="//localhost:1313/vi/4-linked-lists/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/4-conditionals/"
+                href="//localhost:1313/4-linked-lists/"
                 />
   </url><url>
-    <loc>//localhost:1313/5-loops/</loc>
+    <loc>//localhost:1313/6-dictionaries/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/5-loops/"
+                href="//localhost:1313/vi/6-dictionaries/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/5-loops/"
+                href="//localhost:1313/6-dictionaries/"
                 />
   </url><url>
-    <loc>//localhost:1313/6-operators-and-functions/</loc>
+    <loc>//localhost:1313/5-trees/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/6-operators-and-functions/"
+                href="//localhost:1313/vi/5-trees/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/6-operators-and-functions/"
+                href="//localhost:1313/5-trees/"
                 />
   </url><url>
-    <loc>//localhost:1313/7-practice/</loc>
+    <loc>//localhost:1313/7-tries/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/7-practice/"
+                href="//localhost:1313/vi/7-tries/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/7-practice/"
+                href="//localhost:1313/7-tries/"
                 />
   </url><url>
     <loc>//localhost:1313/categories/</loc>

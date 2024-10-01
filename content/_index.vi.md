@@ -1,18 +1,20 @@
 ---
-title : "CS50 Tuần 4"
+title : "CS50 Tuần 5"
 date :  "`r Sys.Date()`" 
 weight : 1 
 chapter : false
 ---
-# CS50 Tuần 4 - Bộ nhớ
+# CS50 Tuần 5 - Cấu trúc dữ liệu
 
-### Overall
-Chào mừng đến với tuần thứ 4. Chúng ta sẽ đi sâu vào những thành phần cơ bản tạo nên các tệp, bao gồm cả hình ảnh, đi sâu hơn về cách truy cập dữ liệu cơ bản được lưu trữ trong bộ nhớ máy tính.
+### Tổng quan
+Chào mừng đến với tuần thứ 5. Ở tuần này, chúng ta sẽ bàn về cách sắp xếp dữ liệu trong bộ nhớ.
 
 
-### Content
- 1. [Pixel](1-Pixel-Art/)
- 2. [Bộ nhớ](2-Memory/)
- 3. [Chuỗi](3-Strings/)
- 4. [Hàm cơ bản](4-Functions/)
- 5. [Heap và Stack](5-Heap-and-Stack/)
+### Mục lục
+ 1. [Cấu trúc dữ liệu](1-Data-structures)
+ 2. [Hàng đợi và Ngăn xếp](2-Stacks-and-Queues)
+ 3. [Thay đổi kích thước mảng](3-Resizing-arrays)
+ 4. [Danh sách liên kết](4-Linked-lists)
+ 5. [Cây](5-Trees)
+ 6. [Từ điển](6-Dictionaries)
+ 7. [Cây tiền tố](7-Tries)

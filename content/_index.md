@@ -1,17 +1,19 @@
 ---
-title : "CS50 Week 4"
+title : "CS50 Week 5"
 date :  "`r Sys.Date()`" 
 weight : 1 
 chapter : false
 ---
-# CS50 Week 4 - Memory
+# CS50 Week 5 - Data Structure
 
 ### Overall
-Welcome to week 4. We will be going deeper into the fundamental building blocks that make up files, including images. Further, we will discuss how to access the underlying data stored in computer memory.
+Welcome to week 5. On this week, we are going to talk about organizing data in memory. We will go through these following contents.
 
 ### Content
- 1. [Pixel Art](1-Pixel-Art/)
- 2. [Memory](2-Memory/)
- 3. [Strings](3-Strings/)
- 4. [Functions](4-Functions/)
- 5. [Heap and Stack](5-Heap-and-Stack/)
+ 1. [Data Structures](1-Data-structures/)
+ 2. [Stacks and Queues](2-Stacks-and-Queues/)
+ 3. [Resizing Arrays](3-Resizing-arrays/)
+ 4. [Linked Lists](4-Linked-lists/)
+ 5. [Trees](5-Trees/)
+ 6. [Dictionaries](6-Dictionaries/)
+ 7. [Tries](7-Tries/)
