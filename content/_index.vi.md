@@ -1,20 +1,17 @@
 ---
-title : "CS50 Tuần 5"
+title : "CS50 Tuần 9"
 date :  "`r Sys.Date()`" 
 weight : 1 
 chapter : false
 ---
-# CS50 Tuần 5 - Cấu trúc dữ liệu
+# CS50 Tuần 9 - Flask
 
 ### Tổng quan
-Chào mừng đến với tuần thứ 5. Ở tuần này, chúng ta sẽ bàn về cách sắp xếp dữ liệu trong bộ nhớ.
+Chào mừng đến với tuần thứ 9. Ở tuần này, chúng ta sẽ kết hợp HTML, CSS, SQL, Python, và JavaScript để tạo một web application hoàn chỉnh.
 
 
 ### Mục lục
- 1. [Cấu trúc dữ liệu](1-Data-structures)
- 2. [Hàng đợi và Ngăn xếp](2-Stacks-and-Queues)
- 3. [Thay đổi kích thước mảng](3-Resizing-arrays)
- 4. [Danh sách liên kết](4-Linked-lists)
- 5. [Cây](5-Trees)
- 6. [Từ điển](6-Dictionaries)
- 7. [Cây tiền tố](7-Tries)
+ 1. [Flask](1-Flask)
+ 2. [Phiên](2-Session/)
+ 3. [AJAX và APIs](3-AJAX-APIs/)
+ 4. [JSON](4-JSON/)

@@ -1,19 +1,16 @@
 ---
-title : "CS50 Week 5"
+title : "CS50 Week 9"
 date :  "`r Sys.Date()`" 
 weight : 1 
 chapter : false
 ---
-# CS50 Week 5 - Data Structure
+# CS50 Week 9 - Flask
 
 ### Overall
-Welcome to week 5. On this week, we are going to talk about organizing data in memory. We will go through these following contents.
+Welcome to week 9. On this week, we will be moving from HTML and CSS into combining HTML, CSS, SQL, Python, and JavaScript so you can create your own web applications.
 
 ### Content
- 1. [Data Structures](1-Data-structures/)
- 2. [Stacks and Queues](2-Stacks-and-Queues/)
- 3. [Resizing Arrays](3-Resizing-arrays/)
- 4. [Linked Lists](4-Linked-lists/)
- 5. [Trees](5-Trees/)
- 6. [Dictionaries](6-Dictionaries/)
- 7. [Tries](7-Tries/)
+ 1. [Flask](1-Flask/)
+ 2. [Session](2-Session/)
+ 3. [AJAX and APIs](3-AJAX-APIs/)
+ 4. [JSON](4-JSON/)
